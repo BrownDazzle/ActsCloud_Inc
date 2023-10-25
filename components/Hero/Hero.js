@@ -1,4 +1,4 @@
-"use-client"
+'use-client'
 
 import React from 'react';
 
@@ -15,7 +15,6 @@ const Hero = (props) => (
       <SectionText>
         The purpose of ActsCloud is to help local developers take on the growing tech industry while building innovative and industry changing technologies.
       </SectionText>
-      {/* <Button onClick={props.handleClick}>Learn More</Button>*/}
     </LeftSection>
   </Section>
 );

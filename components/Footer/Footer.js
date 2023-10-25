@@ -1,8 +1,6 @@
 import React from 'react';
-//import { AiFillFacebook, AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, SocialIcons } from './FooterStyles';
-import { socials } from '../../constants';
 import SocialLink from '../utils/SocialLink';
 import { socialLinks } from '../../data';
 

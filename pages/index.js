@@ -1,5 +1,4 @@
 import { Navbar, Footer } from '../components';
-//import Footer from '../components/Footer/Footer';
 import { GetStarted, Insights, WhatsNew } from '../sections';
 
 const Home = () => (
