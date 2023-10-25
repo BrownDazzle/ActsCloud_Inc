@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer, SocialIcons } from './FooterStyles';
+import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
 import SocialLink from '../utils/SocialLink';
 import { socialLinks } from '../../data';
 
@@ -31,15 +31,6 @@ const Footer = () => {
         </CompanyContainer>
         <SocialContainer>
           {socialLinks.map((links, i) => (<SocialLink icon={links.icon} link={links.link} key={i} />))}
-          {/*<SocialIcons href="">
-            <AiFillFacebook size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="">
-            <AiFillLinkedin size="3rem" />
-          </SocialIcons>
-          <SocialIcons href="">
-            <AiFillInstagram size="3rem" />
-  </SocialIcons>*/}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

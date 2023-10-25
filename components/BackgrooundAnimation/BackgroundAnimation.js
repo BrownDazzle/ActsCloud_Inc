@@ -362,4 +362,5 @@ const BackgroundAnimation = () => (
   </div>
 );
 
+
 export default BackgroundAnimation;
